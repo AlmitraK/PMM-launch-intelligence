@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Asset Manifest",
+  "type": "object",
+  "required": [
+    "asset_id",
+    "priority"
+  ],
+  "properties": {
+    "asset_id": {
+      "type": "string"
+    },
+    "file": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "priority": {
+      "enum": [
+        "must",
+        "should",
+        "test"
+      ]
+    },
+    "source": {
+      "type": "string"
+    },
+    "medium": {
+      "type": "string"
+    },
+    "content": {
+      "type": "string"
+    },
+    "canonical_url": {
+      "type": "string"
+    },
+    "tracked_url": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "blocker": {
+      "type": "string"
+    }
+  }
+}

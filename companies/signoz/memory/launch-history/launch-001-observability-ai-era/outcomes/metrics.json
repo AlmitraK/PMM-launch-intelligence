@@ -1,0 +1,8 @@
+{
+  "launch_id": "launch-001-observability-ai-era",
+  "status": "awaiting_actuals",
+  "window": "TBD",
+  "historical_baselines": {},
+  "channels": {},
+  "notes": "Use factual actuals/baselines only. Missing values remain NA/TBD."
+}

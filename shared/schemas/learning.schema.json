@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Learning",
+  "type": "object",
+  "required": [
+    "dimension",
+    "candidate",
+    "scope",
+    "status",
+    "evidence_launches",
+    "recommended_action"
+  ],
+  "properties": {
+    "dimension": {
+      "enum": [
+        "channel",
+        "format",
+        "voice",
+        "narrative",
+        "proof",
+        "CTA",
+        "audience",
+        "distribution",
+        "copy",
+        "launch_process"
+      ]
+    },
+    "candidate": {
+      "type": "string"
+    },
+    "scope": {
+      "enum": [
+        "launch",
+        "company",
+        "global"
+      ]
+    },
+    "status": {
+      "enum": [
+        "observation",
+        "hypothesis",
+        "emerging_learning",
+        "global_learning"
+      ]
+    },
+    "evidence_launches": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "evidence_assets": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "recommended_action": {
+      "enum": [
+        "retain_as_launch_observation",
+        "test_again",
+        "propose_company_hypothesis",
+        "propose_company_emerging_learning",
+        "propose_global_hypothesis"
+      ]
+    }
+  }
+}

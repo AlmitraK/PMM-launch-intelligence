@@ -1,0 +1,103 @@
+{
+  "launch_id": "launch-001-observability-ai-era",
+  "company_id": "signoz",
+  "status": "in_progress",
+  "strategy_source": "strategy/mrd.md + strategy/launch-plan.md",
+  "execution_assets_status": "draft_test_outputs_not_publish_ready",
+  "utm_taxonomy": {
+    "utm_campaign": "observability_ai_era",
+    "rules": {
+      "utm_source": "actual source/platform (e.g. linkedin, customerio, reddit, partner_name)",
+      "utm_medium": "channel family (e.g. organic_social, email, community, partner, paid_social, newsletter)",
+      "utm_campaign": "launch identifier",
+      "utm_content": "specific asset/variant",
+      "utm_term": "optional; paid/search targeting only",
+      "naming": "lowercase snake_case"
+    }
+  },
+  "assets": [
+    {
+      "asset_id": "company_linkedin",
+      "file": "assets/company-linkedin.md",
+      "priority": "must",
+      "source": "linkedin",
+      "medium": "organic_social",
+      "content": "company_launch_post",
+      "canonical_url": "TBD",
+      "tracked_url": "TBD"
+    },
+    {
+      "asset_id": "founder_linkedin",
+      "file": "assets/founder-linkedin.md",
+      "priority": "should",
+      "source": "linkedin",
+      "medium": "organic_social",
+      "content": "founder_pov",
+      "canonical_url": "TBD",
+      "tracked_url": "TBD"
+    },
+    {
+      "asset_id": "engineer_devrel_linkedin",
+      "file": "assets/engineer-devrel-linkedin.md",
+      "priority": "should",
+      "source": "linkedin",
+      "medium": "organic_social",
+      "content": "engineer_post",
+      "canonical_url": "TBD",
+      "tracked_url": "TBD"
+    },
+    {
+      "asset_id": "customer_email",
+      "file": "assets/customer-email.md",
+      "priority": "must",
+      "source": "customerio",
+      "medium": "email",
+      "content": "customer_launch_email",
+      "canonical_url": "TBD",
+      "tracked_url": "TBD"
+    },
+    {
+      "asset_id": "prospect_email",
+      "file": "assets/prospect-email.md",
+      "priority": "should",
+      "source": "customerio",
+      "medium": "email",
+      "content": "prospect_launch_email",
+      "canonical_url": "TBD",
+      "tracked_url": "TBD"
+    },
+    {
+      "asset_id": "launch_page",
+      "file": "assets/launch-page.md",
+      "priority": "must",
+      "source": "website",
+      "medium": "owned_web",
+      "content": "launch_page",
+      "canonical_url": "TBD",
+      "tracked_url": "TBD"
+    },
+    {
+      "asset_id": "launch_blog",
+      "file": "assets/launch-blog.md",
+      "priority": "must",
+      "source": "website",
+      "medium": "owned_web",
+      "content": "launch_blog",
+      "canonical_url": "TBD",
+      "tracked_url": "TBD"
+    },
+    {
+      "asset_id": "in_product",
+      "file": null,
+      "priority": "must",
+      "status": "blocked_or_not_yet_created",
+      "blocker": "Must tactic in Agent 1; canonical Agent 2 now requires deliverable or explicit blocker."
+    }
+  ],
+  "measurement_handoff": {
+    "distribution_exposure": "per channel/surface metric",
+    "utm_visits": "TBD",
+    "signups": "TBD",
+    "activation": "TBD if credible activation event exists"
+  }
+}

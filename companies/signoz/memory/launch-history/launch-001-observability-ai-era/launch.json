@@ -1,0 +1,48 @@
+{
+  "metadata": {
+    "launch_id": "launch-001-observability-ai-era",
+    "company_id": "signoz",
+    "status": "in_progress",
+    "tier": "tier_1"
+  },
+  "input": {
+    "prd": "input/prd.md",
+    "launch_brief": "input/launch-brief.md",
+    "notes": "input/notes.md"
+  },
+  "strategy": {
+    "mrd": "strategy/mrd.md",
+    "launch_plan": "strategy/launch-plan.md"
+  },
+  "competitive_research": {
+    "source": "strategy/launch-plan.md"
+  },
+  "distribution_plan": {
+    "source": "strategy/launch-plan.md"
+  },
+  "execution": {
+    "manifest": "execution/execution-manifest.json",
+    "assets_dir": "execution/assets",
+    "verifier_report": "execution/verifier-report.md"
+  },
+  "tracking": {
+    "taxonomy_source": "execution/execution-manifest.json"
+  },
+  "verification": {
+    "status": "pass_with_blockers",
+    "source": "execution/verifier-report.md"
+  },
+  "outcomes": {
+    "metrics": "outcomes/metrics.json",
+    "status": "awaiting_actuals"
+  },
+  "analysis": {
+    "launch_performance": "learning/launch-performance.md",
+    "status": "awaiting_actuals"
+  },
+  "learnings": {
+    "candidates": "learning/learning-candidates.json",
+    "recommendations": "learning/recommendations.md",
+    "memory_write_proposal": "learning/memory-write-proposal.json"
+  }
+}

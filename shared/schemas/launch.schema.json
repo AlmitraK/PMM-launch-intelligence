@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Launch",
+  "type": "object",
+  "required": [
+    "metadata",
+    "input",
+    "strategy",
+    "execution",
+    "outcomes",
+    "analysis",
+    "learnings"
+  ],
+  "properties": {
+    "metadata": {
+      "type": "object"
+    },
+    "input": {
+      "type": "object"
+    },
+    "strategy": {
+      "type": "object"
+    },
+    "competitive_research": {
+      "type": "object"
+    },
+    "distribution_plan": {
+      "type": "object"
+    },
+    "execution": {
+      "type": "object"
+    },
+    "tracking": {
+      "type": "object"
+    },
+    "verification": {
+      "type": "object"
+    },
+    "outcomes": {
+      "type": "object"
+    },
+    "analysis": {
+      "type": "object"
+    },
+    "learnings": {
+      "type": "array"
+    }
+  }
+}

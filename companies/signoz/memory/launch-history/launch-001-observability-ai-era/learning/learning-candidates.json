@@ -1,0 +1,29 @@
+[
+  {
+    "dimension": "narrative",
+    "candidate": "A Tier-1 AI-era launch may be stronger as an umbrella narrative anchored in multiple shipped proof points than as an MCP-only feature announcement.",
+    "scope": "launch",
+    "status": "observation",
+    "evidence_launches": [
+      "launch-001-observability-ai-era"
+    ],
+    "evidence_type": [
+      "agent-1 competitive research",
+      "launch strategy synthesis"
+    ],
+    "recommended_action": "test_again"
+  },
+  {
+    "dimension": "launch_process",
+    "candidate": "A fixed core asset list can miss Must tactics selected by launch strategy; execution should derive from the Agent 1 Must/Should/Test plan.",
+    "scope": "launch",
+    "status": "observation",
+    "evidence_launches": [
+      "launch-001-observability-ai-era"
+    ],
+    "evidence_type": [
+      "agent-1-to-agent-2 regression test"
+    ],
+    "recommended_action": "retain_as_launch_observation"
+  }
+]
